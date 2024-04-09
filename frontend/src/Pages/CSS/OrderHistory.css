@@ -1,0 +1,48 @@
+.order-history-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.order-item-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.order-item-details {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.order-item-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.order-item-price,
+.order-item-total {
+  font-size: 14px;
+}
+
+.button-return {
+    width: 262px;
+  height: 58px;
+  outline: none;
+  border: none;
+  background: #00b7ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+}
